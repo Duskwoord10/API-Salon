@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import appointmentRoutes from './routes/appointments.js';
-import sequelize from './db.js';
+import sequelize from './db.js'; 
 
 const app = express();
 const port = process.env.PORT || 3000;
